@@ -1,5 +1,3 @@
-# Example project environment for MPhys project for electroweak physics
-
 ## Preliminaries and environments
 
 For access to the data files we need to be in the `epp` group.
