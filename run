@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# scientific analysis ideally has a workflow to reproduce transient data,
+# so let's make sure that such a directory is always there, and put the plots there.
+# we can also tell git to ignore everything in transient.
+mkdir -p transient
+
+# set up a CERN LCG environment
+source /cvmfs/sft.cern.ch/lcg/views/setupViews.sh LCG_104a x86_64-el9-gcc13-opt
+
+# run the command
+eval $@
+
+
+
+
+
